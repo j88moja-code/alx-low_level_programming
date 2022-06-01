@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - Entry point 
+ * main - Entry point
+ * puts message
+ * return: 0
  * */
 int main(void)
 {
-	/*initialising string */
-	char str1[] = "\"Programming is like building a multilingual puzzle";
-	/* writting to stout */
-	puts(str1);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
