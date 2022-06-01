@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - Entry point
- * puts message
- * return: 0
- * */
+* main - Entry point
+* puts message
+* return: 0
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
