@@ -4,8 +4,9 @@
  * printf - prints message
  *return: 0
 */
-int main()
+int main(void)
 {
-  printf("with proper grammer%s but the outcome is a piece of art%s" ","",");
+  int ch=","
+  printf("with proper grammer%c but the outcome is a piece of art%c, ch,ch);
   return (0);
 }
