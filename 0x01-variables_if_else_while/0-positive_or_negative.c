@@ -8,27 +8,22 @@
 */
 int main(void)
 {
-        int n;
+	int n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        /*check the boolean condition  */
-        if (n > 0)
-        {
-                /*if the number is positive */
-                printf("%d is positive\n", n);
-        } else
-        {
-                if (n == 0)
-                {
-                        /*if the number is equal to zero */
-                        printf("%d is zero\n", n);
-                } else(n < 0)
-                {
-                        /*if the number is less than zero */
-                        printf("%d is negative\n", n);
-                }
-
-        }
-        return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/*check the boolean condition  */
+	if (n > 0)
+	{
+		/*if the number is positive */
+		printf("%d is positive\n", n);
+	} else if
+	{
+		/*if the number is negative */
+		printf("%d is negative\n", n);
+	} else
+	{
+		/*if the number is zero */
+		printf("%d is zero\n", n);
+	return (0);
 }
