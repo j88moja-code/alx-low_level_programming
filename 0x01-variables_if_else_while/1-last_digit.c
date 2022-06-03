@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  *main - Entry point
- *while - while loop
+ *
  *Return: 0
 */
 int main(void)
