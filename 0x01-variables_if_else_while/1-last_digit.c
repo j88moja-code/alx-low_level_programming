@@ -1,9 +1,10 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  *main - Entry point
- *>5,0 or <6
+ *greater than five, zero, or less than six
  *Return: 0
 */
 int main(void)
@@ -12,9 +13,9 @@ int main(void)
 	int lastDigit;
 
 	srand(time(0));
-	n = rand() - RANDMAX / 2;
+	n = rand() - RAND_MAX / 2;
 
-	lastDidigit = n % 10;
+	lastDigit = n % 10;
 	printf("Last digit of %i is %i and is ", n, lastDigit);
 
 	if (lastDigit > 5)
