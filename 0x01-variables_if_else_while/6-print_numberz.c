@@ -10,7 +10,7 @@ int main(void)
 
 	while (i < 58)
 	{
-		puthchar(i);
+		putchar(i);
 		i++;
 	}
 	putchar('\n');
