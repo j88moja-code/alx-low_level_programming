@@ -23,6 +23,6 @@ int main(void)
 	else if (lastDigit == 0)
 		printf("\n");
 	else
-		printf("less than 6 and 0\n");
+		printf("less than 6 and not 0\n");
 	return (0);
 }
