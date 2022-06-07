@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main -Entry point
- * print_sign -checks if the input integer n is the sign
+ *print_sign -checks if the input integer n is the sign
  *
  * Description: function that prints the sign of a number.
  * print_sign: return 1,0 and -1
@@ -15,7 +14,7 @@ int print_sign(int n)
 
 	if (n > 48)
 	{
-		_putchar(44);
+		_putchar(43);
 		return (1);
 	} else if (n == 48)
 	{
@@ -26,4 +25,5 @@ int print_sign(int n)
 		_putchar(45);
 		return (-1);
 	}
+	return (0);
 }
