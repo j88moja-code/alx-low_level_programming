@@ -9,9 +9,10 @@
 
 int main(void)
 {
-	char c[10];
+	char c;
 
 	c = "_putchar\n";
+
 	_putchar(c);
 
 	return (0);
