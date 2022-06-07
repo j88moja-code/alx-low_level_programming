@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *_isalpha -checks for alphabetic characters
+ *_isalpha -checks for alphabetic character.
+ *c -variable for the character to be checked
  *
- * Return - 0 (Success)
- * c -character c being checked
- * Return - 1 if c is a letter, lowercase or uppercase
- * Return - 0 otherwise
+ * _isalpha: return value 1 and 0
+ * c: the integer converted to a character for checking
+ * Return: 0 (success)
  */
 
 int _isalpha(int c)
