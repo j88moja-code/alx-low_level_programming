@@ -7,7 +7,7 @@
  * _islower: return value 1 and 0
  * c: the integer converted to a character for checking
  * Return: 0 (success)
- */i
+ */
 
 int _islower(int c)
 {
