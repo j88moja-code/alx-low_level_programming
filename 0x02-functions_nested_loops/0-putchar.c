@@ -3,17 +3,19 @@
 /**
  *main - Entry point
  *
- * _putchar - prints out message
- * Return - 0 (Sucees)
+ * Description - prints _putchar, followed by a new line
+ * Return: 0 (Sucees)
  */
 
 int main(void)
 {
-	char c;
+	char c[8] = "_putchar";
+	int a;
 
-	c = "_putchar\n";
-
-	_putchar(c);
-
+	for (a = 0; a < 8; a++)
+	{	
+		_putchar(c[a]);
+	}
+	_putchar('\n');
 	return (0);
 }
