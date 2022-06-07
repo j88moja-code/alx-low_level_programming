@@ -12,39 +12,18 @@
 
 int print_sign(int n)
 {
-	n = 0;
 
-	if (n > 0)
+	if (n > 48)
 	{
-		char a;
-
-		a = '+';
-		_putchar(a);
-		_putchar(',');
-		_putchar(' ');
-		_putchar(n + '0');
-		_putchar('\n');
+		_putchar(44);
 		return (1);
-	} else if (n == 0)
+	} else if (n == 48)
 	{
-		char a;
-
-		a = '0';
-		_putchar(a);
-		_putchar(',');
-		_putchar(' ');
-		_putchar(n + '0');
-		_putchar('\n');
+		_putchar(48);
 		return (0);
 	} else
 	{
-		char a;
-
-		a = '-';
-		_putchar(a);
-		_putchar(',');
-		_putchar(' ');
-		_putchar(n + '0');
+		_putchar(45);
 		return (-1);
 	}
 }
