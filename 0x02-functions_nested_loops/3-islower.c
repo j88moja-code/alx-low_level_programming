@@ -5,7 +5,8 @@
  *c -variable for the character to be checked
  *
  * _islower: return value 1 and 0
- * c: the integer converted to a character for checking
+ *Description: checks if the character c is in lower character
+ *@c: integer put through the test
  * Return: 0 (success)
  */
 
