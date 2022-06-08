@@ -4,3 +4,4 @@
 ###You are not coding the solution / function, you’re just testing it! However, you can adapt your function from 0x01. C - Variables, if, else, while - Task #0 to compile with this main file to test locally.
 
 ### not allowed to add or remove lines of code, you may change only one line in this task.
+### Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case.
