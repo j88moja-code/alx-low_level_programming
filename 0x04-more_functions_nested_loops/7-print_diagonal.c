@@ -22,16 +22,12 @@ void print_diagonal(int m)
 		{
 			for (j = 1; j <= m; j++)
 			{
-				if (j > i)
-				{
-					for (i = 1; i <= -1; i++)
-					{
-						_putchar(' ' );
-					}
-					_putchar('\n');
-					_putchar('\n');
-				}
+				if (j == 1)
+					_putchar(c);
+				else
+					_putchar(' ');
 			}
+			_putchar('\n');
 		}
 	}
 }
