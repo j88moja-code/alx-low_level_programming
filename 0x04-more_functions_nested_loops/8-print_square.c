@@ -10,11 +10,11 @@
 void print_square(int size)
 {
 	char c = 35;
-	int i = 0, j;
+	int i = 1, j;
 
 	while (i < size)
 	{
-		j = 0;
+		j = 1;
 		while (j < size)
 		{
 			_putchar(c);
