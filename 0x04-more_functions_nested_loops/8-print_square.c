@@ -9,7 +9,7 @@
 
 void print_square(int size)
 {
-	cha c = 35;
+	char c = 35;
 	int i = 0, j;
 
 	while (i < size)
