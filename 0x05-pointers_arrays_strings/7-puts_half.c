@@ -3,7 +3,7 @@
 /**
  * puts_half - prints half of a string.
  *
- * @s: the pointer of a string that runs through the program.
+ * @str: the pointer of a string that runs through the program.
  * Return: nothing.
  */
 
