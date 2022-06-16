@@ -11,9 +11,9 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *p = dest;
+	char *ptr = dest;
 
-	if (dest == NULL)
+	if ((dest == NULL) && (src == NULL))
 	{
 		return (NULL);
 	}
@@ -25,7 +25,7 @@ char *_strncpy(char *dest, char *src, int n)
 		src++;
 	}
 
-	*dest = '\0';
+	dest = '\0';
 
-	return (p);
+	return (ptr);
 }
