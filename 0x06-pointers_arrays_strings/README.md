@@ -9,3 +9,5 @@
 ##7 - 7-leet.c - a function that encodes a string into 1337, using one only if, two loops, no switch case no ternary ops.
 ##8 - 100-rot13.c - a function that encodes a string using rot13.
 ##9 - 101-print_number.c - a function that prints an integer.
+##10 - 102-magic.c - a program that modifies arrays magically.
+##11 - 103-infinite_add.c - a function that adds two numbers.
