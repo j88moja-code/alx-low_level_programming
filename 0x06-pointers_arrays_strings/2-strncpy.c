@@ -12,20 +12,14 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	char *ptr = dest;
+	int count;
 
-	if ((dest == NULL) && (src == NULL))
+	for (count =0; count < n && src[count] != '\0'; count++)
 	{
-		return (NULL);
+		ptr[count] = src[count];
 	}
-
-	while (*src && n--)
-	{
-		*dest = *src;
-		dest++;
-		src++;
-	}
-
-	dest = '\0';
+	for (; count < n; count++)
+		ptr[count] = '\0';
 
 	return (ptr);
 }
