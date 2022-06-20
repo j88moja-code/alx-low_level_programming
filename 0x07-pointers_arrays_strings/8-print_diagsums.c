@@ -23,7 +23,7 @@ void print_diagsums(int *a, int size)
 		x = x + size + 1;
 	}
 
-	while (y <(size * size - 1))
+	while (y < (size * size - 1))
 	{
 		result2 = result2 + a[y];
 		y = y + size - 1;
