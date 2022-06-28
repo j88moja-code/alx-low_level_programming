@@ -25,4 +25,5 @@ char *_strdup(char *str)
 		*p++ = *str++;
 	*p = '\0';
 	return (des);
+	free(des);
 }
