@@ -5,7 +5,8 @@
  *
  * @size: size of the array.
  * @action: pointer to the fuction that is used.
- *
+ * @array: array of ints to be printed.
+ * *
  * Return: nothing.
  */
 
