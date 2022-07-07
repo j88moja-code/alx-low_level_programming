@@ -15,3 +15,4 @@
 ## D 0x0D-preprocessor
 ## E 0x0E-structures_typedef
 ## F 0x0F-function_pointers
+## G 0x10-variadic_functions
