@@ -11,50 +11,26 @@
 
 list_t  *add_node(list_t **head, const char *str)
 {
-	int count = 0;
-	list_t *temp;
+	int count;
+	list_t *new_node;
 
-	temp = malloc(sizeof(list_t));
-	if (temp == NULL)
+	for (count = 0; str[count] != '\0'; count++)
+		;
+	new_node = malloc(sizeof(list_t));
+	if (new_node == NULL)
+	{
+		free(new_node);
 		return (NULL);
-	temp->str = _strdup(str);
-	while (str[count] != '\0')
-		count++;
-	temp->len = count;
-	temp->next = *head;
-	*head = temp;
-	return (temp);
-}
+	}
+	new_node->str = strdup(str);
+	if (new_node->str == NULL)
+	{
+		free(new_node);
+		return (NULL);
+	}
+	new_node->len = count;
+	new_node->next = *head;
 
-/**
- * _strdup - duplicates the string.
- *
- * @str: string to be dubplicated.
- *
- * Return: pointer to the string.
- */
-
-char *_strdup(const char *str)
-{
-        int x, y;
-        char *ptr;
-
-        if (str == NULL)
-                return (NULL);
-        while (*(str + 1) != '\0')
-        {
-                x++;
-        }
-        ptr = malloc(sizeof(char) * x + 1);
-
-        if (ptr == NULL)
-                return (NULL);
-        y = 0;
-        while (str[y] != '\0')
-        {
-                ptr[y] = str[y];
-                y++;
-        }
-        ptr[y] = '\0';
-        return (ptr);
+	*head = new_node;
+	return (*head);
 }
