@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * make_buff - allocates a buffer for the new file.
+  * make_buf - allocates a buffer for the new file.
   *
   * @fptr: pointer to the new file which buffer will store chars at.
   *
@@ -98,6 +98,5 @@ int main(int argc, char *argv[])
 	free(buff);
 	cls_file(file_from);
 	cls_file(file_to);
-
 	return (0);
 }
