@@ -1,22 +1,6 @@
 #include "main.h"
 
 /**
- * _ischar - checks if character is a letter.
- *
- * @c: character beimh checked.
- * Return: 1 for letter, else 0.
- */
-
-int _ischar(char c)
-{
-	int result;
-
-	result = 0;
-	((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) ? result = 1 : 0;
-	return (result);
-}
-
-/**
  * rot13 - encodes a string usng rot13.
  *
  * @str: string that runs through the function.
@@ -25,15 +9,37 @@ int _ischar(char c)
 
 char *rot13(char *str)
 {
-	char *temp;
-
-	temp = str;
-	do {
-		if (_ischar(*str))
+	int i = 0, j;
+	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
+			     'G', 'H', 'I', 'J', 'K', 'L',
+			     'M', 'N', 'O', 'P', 'Q', 'R',
+			     'S', 'T', 'U', 'V', 'W', 'X',
+			     'Y', 'Z', 'a', 'b', 'c', 'd',
+			     'e', 'f', 'g', 'h', 'i', 'j',
+			     'k', 'l', 'm', 'n', 'o', 'p',
+			     'q', 'r', 's', 't', 'u', 'v',
+			     'w', 'x', 'y', 'z'};
+	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S',
+			     'T', 'U', 'V', 'W', 'X', 'Y',
+			     'Z', 'A', 'B', 'C', 'D', 'E',
+			     'F', 'G', 'H', 'I', 'J', 'K',
+			     'L', 'M', 'n', 'o', 'p', 'q',
+			     'r', 's', 't', 'u', 'v', 'w',
+			     'x', 'y', 'z', 'a', 'b', 'c',
+			     'd', 'e', 'f', 'g', 'h', 'i',
+			     'j', 'k', 'l', 'm'};
+	while (str[i])
+	{
+		for (j = 0; j < 52; j++)
 		{
-			((*str >= 'a' && *str <= 'm') ||
-			 (*str >= 'A' && *str <= 'M')) ? (*str += 13) : (*str -= 13);
+			if (str[i] == alphabet[j])
+			{
+				str[i] = rot13key[j];
+				break;
+			}
 		}
-	} while (*str++);
-	return (temp);
+		i++;
+	}
+
+	return (str);
 }
