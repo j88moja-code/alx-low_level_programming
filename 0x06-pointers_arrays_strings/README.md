@@ -11,3 +11,4 @@
 ##9 - 101-print_number.c - a function that prints an integer.
 ##10 - 102-magic.c - a program that modifies arrays magically.
 ##11 - 103-infinite_add.c - a function that adds two numbers.
+##12 - 104-print_buffer.c - a function that prints a buffer.
