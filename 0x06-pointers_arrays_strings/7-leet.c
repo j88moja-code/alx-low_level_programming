@@ -9,21 +9,19 @@
 
 char *leet(char *str)
 {
-	char numbers[] = "43071";
-	char upperLetters[] = "AE0TL";
-	char lowerLetters[] = "aeotl";
-	int i, j;
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?','T'};
+	int i = 0, j;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (str[i])
 	{
-		for (j = 0; lowerLetters[j] != '\0'; j++)
+		for (j = 0; j <= 7; j++)
 		{
-			if (str[i] == upperLetters[j] || str[i] == lowerLetters[j])
-			{
-				str[i] = numbers[j];
-				break;
-			}
+			if (str[i] == leet[j] ||
+					str[i] - 32 == leet[j])
+				str[i] = j + '0';
 		}
+		i++;
 	}
+
 	return (str);
 }
