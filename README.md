@@ -1,7 +1,7 @@
 # ALX LOW LEVEL PROGRAMMING
 
 ## About 
-This repo contains source code for projects covered under ALX low level programming and Algorithm section which  as part of the ALX Software Engineering Programme.
+This repo contains source code for projects covered under ALX low level programming and Algorithm section which  is part of the ALX Software Engineering Programme.
 
 ## Contents
 
