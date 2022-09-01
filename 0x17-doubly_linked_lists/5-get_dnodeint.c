@@ -5,6 +5,8 @@
   *
   * @head: pointer to the head node of dlistint_t.
   * @index: index of the node begining from 0.
+  *
+  * Return: pointer to the nth node or NULL on failure.
   */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
