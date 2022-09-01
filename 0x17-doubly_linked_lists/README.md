@@ -2,6 +2,8 @@
 
 ## mandatory tasks
 
+* [lists.h]() - header file for prototypes of all the functions.
+
 * [0-print_dlistint.c]() - a function that prints all the elements of a `dlistint_t` list.
 * [1-dlistint_len.c]() - a function that returns the number of elements in a linked `dlistint_t` list.
 * [2-add_dnodeint.c]() - a function that adds a new node at the beginning of a `dlistint_t` list.
