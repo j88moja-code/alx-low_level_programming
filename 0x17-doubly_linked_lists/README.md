@@ -2,7 +2,7 @@
 
 ## mandatory tasks
 
-* [lists.h]() - header file for prototypes of all the functions.
+* [lists.h](https://github.com/j88moja-code/alx-low_level_programming/blob/main/0x17-doubly_linked_lists/lists.h) - header file for prototypes of all the functions.
 
 * [0-print_dlistint.c]() - a function that prints all the elements of a `dlistint_t` list.
 * [1-dlistint_len.c]() - a function that returns the number of elements in a linked `dlistint_t` list.
