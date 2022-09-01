@@ -1,7 +1,10 @@
 # ALX LOW LEVEL PROGRAMMING
-## #0 0x00-hello_world
-## #1 0x01-variables_if_else_while
-## #2 0x02-functions_nested_loops
+
+## About 
+This repo contains source code for projects covered under ALX low level programming and Algorithm section which  as part of the ALX Software Engineering Programme.
+* 0 0x00-hello_world
+* 1 0x01-variables_if_else_while
+* 2 0x02-functions_nested_loops
 ## #3 0x03-debugging
 ## #4 0x04-more_functions_nested_loops
 ## #5 0x05-pointers_arrays_strings
