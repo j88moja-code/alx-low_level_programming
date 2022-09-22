@@ -2,7 +2,7 @@
 
 `header file`
 
-* [hash_tables.h]() - file with all the prototypes for the functions created for this project.
+* [hash_tables.h](https://github.com/j88moja-code/alx-low_level_programming/blob/main/0x1A-hash_tables/hash_tables.h) - file with all the prototypes for the functions created for this project.
 
 `mandatory tasks`
 
