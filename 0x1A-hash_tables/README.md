@@ -16,5 +16,5 @@
 
 `advanced task`
 
-* [100-sorted_hash_table.c]() - sorted hash table in c with PHP concepts.
+* [100-sorted_hash_table.c](https://github.com/j88moja-code/alx-low_level_programming/blob/main/0x1A-hash_tables/100-sorted_hash_table.c) - sorted hash table in c with PHP concepts.
 
